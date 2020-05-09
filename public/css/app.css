@@ -13931,6 +13931,90 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(/fonts/Montserrat-Bold.otf?5a6aef823dd8d1b22aacd78aebb653d6);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(/fonts/Montserrat-Black.otf?f86a4fdb233e1ca195b64712ac9c7cbe);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Hairline";
+  src: url(/fonts/Montserrat-Hairline.otf?af3ac151d996baa94cb52c8a3fe01218);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(/fonts/Montserrat-Light.otf?f5e955efb2bef154ac6dd150903f2d45);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(/fonts/Montserrat-Regular.otf?27e50ffd6a14cbc8221c9dbd3b5208dc);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(/fonts/Roboto-Light.ttf?d5c46b134c17b2138dcd1bb0efa67049);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(/fonts/Roboto-Thin.ttf?14147ca3288fa08b850d029193150722);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/fonts/Roboto-Regular.ttf?5673da52c98bb6cb33ada5aaf649703e);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fn-rbt-light {
+  font-family: "Roboto-Light";
+}
+
+.fn-m-bold {
+  font-family: "Montserrat-Bold";
+}
+
+.fn-m-black {
+  font-family: "Montserrat-Black";
+}
+
+.fn-rbt-thin {
+  font-family: "Roboto-Thin";
+}
+
+.fn-hairline {
+  font-family: "Montserrat-Hairline";
+}
+
+.fn-m-light {
+  font-family: "Montserrat-Light";
+}
+
+.fn-m-regular {
+  font-family: "Montserrat-Regular";
+}
+
 .bottom-line {
   margin: 0 -6rem;
   border-bottom: 1px solid #f1f1f1;
@@ -13955,5 +14039,13 @@ body {
 
 .text-green {
   color: #2fb348;
+}
+
+.bg-grey {
+  background-color: #f7f7f7;
+}
+
+.v-top {
+  vertical-align: top;
 }
 

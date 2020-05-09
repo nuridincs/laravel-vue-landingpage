@@ -1,30 +1,72 @@
 <template>
-  <div class="p-4">
-    <h3 class="text-center">Powerful dengan Limit PHP yang Lebih Besar</h3>
-    <div class="row p-4">
+  <div>
+    <h3 class="text-center fn-m-light">Powerful dengan Limit PHP yang Lebih Besar</h3>
+    <div class="row fn-hairline">
       <div class="col">
         <ul class="spec">
-          <li v-for="(data, index) in 3" :key="index">
-            <span>
-              <i class="fa fa-check-circle text-green"></i>
-            </span>
-            <span>Max Execution time 300s</span>
+          <li v-for="({value}, index) in item" :key="index" :class="[index === 1 ? 'bg-grey' : '']">
+            <div class="row">
+              <div class="col-2">
+                <span>
+                  <i class="fa fa-check-circle text-green fa-lg"></i>
+                </span>
+              </div>
+              <div class="col">
+                <span>{{ value }}</span>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
       <div class="col">
         <ul class="spec">
-          <li v-for="(data, index) in 3" :key="index">
-            <span>
-              <i class="fa fa-check-circle text-green"></i>
-            </span>
-            <span>Max Execution time 300s</span>
+          <li v-for="({value}, index) in item2" :key="index" :class="[index === 1 ? 'bg-grey' : '']">
+            <div class="row">
+              <div class="col-2">
+                <span>
+                  <i class="fa fa-check-circle text-green fa-lg"></i>
+                </span>
+              </div>
+              <div class="col">
+                <span>{{ value }}</span>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      item: [
+        {
+          value: 'Max Execution time 300s'
+        },
+        {
+          value: 'Max Execution time 300s'
+        },
+        {
+          value: 'PHP memory limit 1024 MB'
+        },
+      ],
+      item2: [
+        {
+          value: 'Post max size 128 MB'
+        },
+        {
+          value: 'Upload max filesize 128 MB'
+        },
+        {
+          value: 'Max input var 2500'
+        },
+      ]
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 .spec {

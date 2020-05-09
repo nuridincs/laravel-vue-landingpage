@@ -1,5 +1,5 @@
 <template>
-  <div class="footer defer-load default" style="display: block;">
+  <div class="footer defer-load default fn-rbt-light" style="display: block;">
     <div class="footer_center">
       <div class="container center-text hidden-md hidden1024 hidden640 hidden768">
         <div class="row">

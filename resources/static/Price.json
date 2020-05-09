@@ -1,8 +1,9 @@
 [
   {
     "type": "Bayi",
-    "gimmick_price": "19000",
-    "price": "14900",
+    "gimmick_price": "19.000",
+    "price": "14",
+    "price_last": "900",
     "total_user": "938",
     "spesification": {
       "resource": "0.5 resourcer power",
@@ -19,8 +20,9 @@
   },
   {
     "type": "Pelajar",
-    "gimmick_price": "19000",
-    "price": "14900",
+    "gimmick_price": "19.000",
+    "price": "14",
+    "price_last": "900",
     "total_user": "938",
     "spesification": {
       "resource": "0.5 resourcer power",
@@ -37,8 +39,9 @@
   },
   {
     "type": "Personal",
-    "gimmick_price": "19000",
-    "price": "14900",
+    "gimmick_price": "19.000",
+    "price": "14",
+    "price_last": "900",
     "total_user": "938",
     "spesification": {
       "resource": "0.5 resourcer power",
@@ -55,8 +58,9 @@
   },
   {
     "type": "Bisnis",
-    "gimmick_price": "19000",
-    "price": "14900",
+    "gimmick_price": "19.000",
+    "price": "14",
+    "price_last": "900",
     "total_user": "938",
     "spesification": {
       "resource": "0.5 resourcer power",

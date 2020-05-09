@@ -1,12 +1,12 @@
 <template>
   <div class="py-4">
-    <h3 class="text-center">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda</h3>
+    <h3 class="text-center fn-m-light">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda</h3>
     <div class="py-3">
-      <ul>
+      <ul class="fn-rbt-light">
         <li v-for="(data, index) in 60" :key="index">IcePHP</li>
       </ul>
       <div class="text-center">
-        <a href="" class="btn btn-outline-dark br-2 w-25"> Selengkapnya</a>
+        <a href="" class="btn btn-outline-dark br-2 w-25 fn-m-regular"> Selengkapnya</a>
       </div>
     </div>
   </div>

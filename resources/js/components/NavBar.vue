@@ -10,7 +10,7 @@
         <!-- Links -->
         <ul class="navbar-nav">
           <li v-for="(menu, index) in menus" :key="index" class="nav-item">
-            <a class="nav-link" href="#">{{ menu.name }}</a>
+            <a class="nav-link fn-rbt-light" href="#">{{ menu.name }}</a>
           </li>
         </ul>
       </nav>

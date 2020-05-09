@@ -3,10 +3,10 @@
     <div class="py-3">
       <div class="row">
         <div class="col">
-          <small> Gratis Ebook 9 cara cerda menggunakan Domain [x] </small>
+          <small class="fn-m-light"> Gratis Ebook 9 cara cerda menggunakan Domain [x] </small>
         </div>
         <div class="col">
-          <div class="row text-right">
+          <div class="row text-right fn-rbt-thin">
             <div class="col">
               <span class="mr-2">
                 <i class="fa fa-phone"></i>

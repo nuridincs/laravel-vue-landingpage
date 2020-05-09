@@ -2,6 +2,90 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/montserrat/Montserrat-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../fonts/montserrat/Montserrat-Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Hairline';
+  src: url('../fonts/montserrat/Montserrat-Hairline.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/montserrat/Montserrat-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/montserrat/Montserrat-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/roboto/Roboto-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('../fonts/roboto/Roboto-Thin.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fn-rbt-light {
+  font-family: 'Roboto-Light';
+}
+
+.fn-m-bold {
+  font-family: 'Montserrat-Bold';
+}
+
+.fn-m-black {
+  font-family: 'Montserrat-Black';
+}
+
+.fn-rbt-thin {
+  font-family: 'Roboto-Thin';
+}
+
+.fn-hairline {
+  font-family: 'Montserrat-Hairline';
+}
+
+.fn-m-light {
+  font-family: 'Montserrat-Light';
+}
+
+.fn-m-regular {
+  font-family: 'Montserrat-Regular';
+}
+
 .bottom-line {
   margin: 0 -6rem;
   border-bottom: 1px solid #f1f1f1;
@@ -26,4 +110,12 @@ body {
 
 .text-green {
   color: #2fb348;
+}
+
+.bg-grey {
+  background-color: #f7f7f7;
+}
+
+.v-top {
+  vertical-align: top
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="p-3 wrapper-bg">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex align-items-center fn-m-light">
         <div class="col">Bagikan jika Anda menyukai halaman ini.</div>
         <div class="col">
           <span><i class="fa fa-facebook-square fa-2x"></i></span>

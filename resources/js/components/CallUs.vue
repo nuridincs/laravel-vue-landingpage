@@ -2,9 +2,9 @@
   <div class="p-5 wrapper-bg">
     <div class="container">
       <div class="row d-flex align-items-center">
-        <div class="col-8"><h2>Perlu <b>Bantuan?</b> Hubungi kami: <b>0272-5305505</b></h2></div>
+        <div class="col-8"><h3 class="fn-m-light">Perlu <span class="fn-m-bold">BANTUAN?</span> Hubungi kami: <span class="fn-m-bold">0272-5305505</span></h3></div>
         <div class="col text-right">
-          <a href="#" class="btn btn-outline-light btn-chat w-50">
+          <a href="#" class="btn btn-outline-light btn-chat w-50 fn-m-regular">
             <span class="mr-2">
               <i class="fa fa-comments"></i>
             </span>
