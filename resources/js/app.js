@@ -1,18 +1,16 @@
 require('./bootstrap');
 
 import Vue from 'vue';
-import NavBar from './components/Header';
-import Price from './components/Price';
+import LandingPage from './components/LandingPage';
 
 new Vue({
   el: '#app',
 
   components: {
-    NavBar,
-    Price
+    LandingPage
   },
 
   mounted() {
-    console.log("app mounted");
+    // console.log("app mounted");
   }
 })

@@ -10883,3 +10883,29 @@ a.text-dark:hover {
   }
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottom-line {
+  margin: 0 -6rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.br-2 {
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.btn-hosting {
+  border-radius: 20px;
+  border: 2px solid #168fee;
+}
+
+.btn-chat {
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+}
+

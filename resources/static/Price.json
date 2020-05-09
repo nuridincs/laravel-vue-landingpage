@@ -1,0 +1,74 @@
+[
+  {
+    "type": "Bayi",
+    "gimmick_price": "19000",
+    "price": "14900",
+    "total_user": "938",
+    "spesification": {
+      "resource": "0.5 resourcer power",
+      "disk_space": "500 MB",
+      "bandwitdth": "unlimited",
+      "database": "unlimited",
+      "domain": 1,
+      "backup": "instant Backup",
+      "ssl": "unlimited SSL Gratis Selamanya",
+      "detail": "<div><b>0.5 resourcer power</b></div><div><b>500</b>MB</div><div><b>Unlimited</b> Bandwidth</div><div><b>unlimited</b> Database</div><div><b>1</b> Domain</div><div><b>Instant</b> Backup</div><div><b>Unlimited SSL</b> Gratis Selamanya</div>"
+    },
+    "best_seller": false,
+    "diskon": 0
+  },
+  {
+    "type": "Pelajar",
+    "gimmick_price": "19000",
+    "price": "14900",
+    "total_user": "938",
+    "spesification": {
+      "resource": "0.5 resourcer power",
+      "disk_space": "500 MB",
+      "bandwitdth": "unlimited",
+      "database": "unlimited",
+      "domain": 1,
+      "backup": "instant Backup",
+      "ssl": "unlimited SSL Gratis Selamanya",
+      "detail": "<div><b>0.5 resourcer power</b></div><div><b>500</b>MB</div><div><b>Unlimited</b> Bandwidth</div><div><b>unlimited</b> Database</div><div><b>1</b> Domain</div><div><b>Instant</b> Backup</div><div><b>Unlimited SSL</b> Gratis Selamanya</div>"
+    },
+    "best_seller": false,
+    "diskon": 0
+  },
+  {
+    "type": "Personal",
+    "gimmick_price": "19000",
+    "price": "14900",
+    "total_user": "938",
+    "spesification": {
+      "resource": "0.5 resourcer power",
+      "disk_space": "500 MB",
+      "bandwitdth": "unlimited",
+      "database": "unlimited",
+      "domain": 1,
+      "backup": "instant Backup",
+      "ssl": "unlimited SSL Gratis Selamanya",
+      "detail": "<div><b>0.5 resourcer power</b></div><div><b>500</b>MB</div><div><b>Unlimited</b> Bandwidth</div><div><b>unlimited</b> Database</div><div><b>1</b> Domain</div><div><b>Instant</b> Backup</div><div><b>Unlimited SSL</b> Gratis Selamanya</div>"
+    },
+    "best_seller": true,
+    "diskon": 0
+  },
+  {
+    "type": "Bisnis",
+    "gimmick_price": "19000",
+    "price": "14900",
+    "total_user": "938",
+    "spesification": {
+      "resource": "0.5 resourcer power",
+      "disk_space": "500 MB",
+      "bandwitdth": "unlimited",
+      "database": "unlimited",
+      "domain": 1,
+      "backup": "instant Backup",
+      "ssl": "unlimited SSL Gratis Selamanya",
+      "detail": "<div><b>0.5 resourcer power</b></div><div><b>500</b>MB</div><div><b>Unlimited</b> Bandwidth</div><div><b>unlimited</b> Database</div><div><b>1</b> Domain</div><div><b>Instant</b> Backup</div><div><b>Unlimited SSL</b> Gratis Selamanya</div>"
+    },
+    "best_seller": false,
+    "diskon": 40
+  }
+]
