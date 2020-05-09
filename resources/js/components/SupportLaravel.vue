@@ -7,7 +7,7 @@
         <div v-for="({value}, index) in item" :key="index" class="fn-rbt-light">
           <div class="py-2">
             <span>
-              <i class="fa fa-check-circle text-green"></i>
+              <i class="fa fa-check-circle text-green fa-lg"></i>
             </span>
             <span v-html="value" />
           </div>

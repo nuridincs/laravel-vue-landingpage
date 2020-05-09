@@ -20,8 +20,8 @@
   },
   {
     "type": "Pelajar",
-    "gimmick_price": "19.000",
-    "price": "14",
+    "gimmick_price": "46.000",
+    "price": "23",
     "price_last": "900",
     "total_user": "938",
     "spesification": {
@@ -39,8 +39,8 @@
   },
   {
     "type": "Personal",
-    "gimmick_price": "19.000",
-    "price": "14",
+    "gimmick_price": "58.000",
+    "price": "38",
     "price_last": "900",
     "total_user": "938",
     "spesification": {
@@ -58,8 +58,8 @@
   },
   {
     "type": "Bisnis",
-    "gimmick_price": "19.000",
-    "price": "14",
+    "gimmick_price": "109.000",
+    "price": "65",
     "price_last": "900",
     "total_user": "938",
     "spesification": {

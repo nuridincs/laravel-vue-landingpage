@@ -8,7 +8,7 @@
       <div v-for="(data, index) in listPrice" :key="index">
         <div class="columns">
           <ul class="price">
-            <li class="header">{{ data.type }}</li>
+            <li class="header fn-m-bold">{{ data.type }}</li>
             <li>
               <small class="fn-m-light"><del>Rp. {{ data.gimmick_price }}</del></small>
               <div>
