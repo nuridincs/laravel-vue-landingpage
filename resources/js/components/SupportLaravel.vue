@@ -6,7 +6,9 @@
         <div>Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</div>
         <div v-for="(data, index) in 5" :key="index">
           <div>
-            <span>c</span>
+            <span>
+              <i class="fa fa-check-circle text-green"></i>
+            </span>
             <span>Install laravel <b>1 klik</b></span>
           </div>
         </div>

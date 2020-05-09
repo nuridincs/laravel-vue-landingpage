@@ -126,16 +126,13 @@
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
             <div class="row social-icon">
               <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://www.facebook.com/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-facebook zmdi-hc-lg zmdi-hc-border-circle-fb"></i></a>
+                <a href="https://www.facebook.com/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-facebook zmdi-hc-lg zmdi-hc-border-circle-fb"><i class="fa fa-facebook"></i></i></a>
               </div>
               <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://twitter.com/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-twitter zmdi-hc-lg zmdi-hc-border-circle-tw"></i></a>
+                <a href="https://twitter.com/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-twitter zmdi-hc-lg zmdi-hc-border-circle-tw"><i class="fa fa-twitter"></i></i></a>
               </div>
               <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://www.instagram.com/niagahoster.id" target="_blank" rel="nofollow"><i class="zmdi zmdi-instagram zmdi-hc-lg zmdi-hc-border-circle-tw"></i></a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://www.linkedin.com/company/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-linkedin zmdi-hc-lg zmdi-hc-border-circle-tw"></i></a>
+                <a href="https://www.instagram.com/niagahoster.id" target="_blank" rel="nofollow"><i class="zmdi zmdi-instagram zmdi-hc-lg zmdi-hc-border-circle-tw"><i class="fa fa-google"></i></i></a>
               </div>
             </div>
           </div>
@@ -147,43 +144,43 @@
             <p class="font-r-bold title">PEMBAYARAN</p>
             <ul class="logo-bank">
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/logo-bni-bordered.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/logo-bni-bordered.svg" alt="bank bni" class="bank-logo" />
+                <img src="assets/svg/logo-bank/bni.svg" data-src="assets/svg/logo-bank/bni.svg" alt="bank bni" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/logo-bca-bordered.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/logo-bca-bordered.svg" alt="bank bca" class="bank-logo" />
+                <img src="assets/svg/logo-bank/bca.svg" data-src="assets/svg/logo-bank/bca.svg" alt="bank bca" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/bri.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/bri.svg" alt="bank bri" class="bank-logo" />
+                <img src="assets/svg/logo-bank/bri.svg" data-src="assets/svg/logo-bank/bri.svg" alt="bank bri" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/mandiriclickpay.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/mandiriclickpay.svg" alt="mandiri clickpay" class="bank-logo" />
+                <img src="assets/svg/logo-bank/mandiriclickpay.svg" data-src="assets/svg/logo-bank/mandiriclickpay.svg" alt="mandiri clickpay" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/permatabank.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/permatabank.svg" alt="bank permata" class="bank-logo" />
+                <img src="assets/svg/logo-bank/permatabank.svg" data-src="assets/svg/logo-bank/permatabank.svg" alt="bank permata" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/atmbersama.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/atmbersama.svg" alt="atm bersama" class="bank-logo" />
+                <img src="assets/svg/logo-bank/atmbersama.svg" data-src="assets/svg/logo-bank/atmbersama.svg" alt="atm bersama" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/prima.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/prima.svg" alt="prima" class="bank-logo" />
+                <img src="assets/svg/logo-bank/prima.svg" data-src="assets/svg/logo-bank/prima.svg" alt="prima" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/alto.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/alto.svg" alt="alto" class="bank-logo" />
+                <img src="assets/svg/logo-bank/alto.svg" data-src="assets/svg/logo-bank/alto.svg" alt="alto" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/visa.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/visa.svg" alt="visa" class="bank-logo" />
+                <img src="assets/svg/logo-bank/visa.svg" data-src="assets/svg/logo-bank/visa.svg" alt="visa" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/mastercard.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/mastercard.svg" alt="master card" class="bank-logo" />
+                <img src="assets/svg/logo-bank/mastercard.svg" data-src="assets/svg/logo-bank/mastercard.svg" alt="master card" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/indomaret.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/indomaret.svg" alt="indomaret" class="bank-logo" />
+                <img src="assets/svg/logo-bank/indomaret.svg" data-src="assets/svg/logo-bank/indomaret.svg" alt="indomaret" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/paypal.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/paypal.svg" alt="paypal" class="bank-logo" />
+                <img src="assets/svg/logo-bank/paypal.svg" data-src="assets/svg/logo-bank/paypal.svg" alt="paypal" class="bank-logo" />
               </li>
               <li>
-                <img src="https://www.niagahoster.co.id/assets/images/new_design/logo-gopay.svg" data-src="https://www.niagahoster.co.id/assets/images/new_design/logo-gopay.svg" alt="paypal" class="bank-logo img-fluid" />
+                <img src="assets/svg/logo-bank/gopay.svg" data-src="assets/svg/logo-bank/gopay.svg" alt="paypal" class="bank-logo img-fluid" />
               </li>
             </ul>
             <p class="mar_top2 nunito-light note">Aktivasi instan dengan e-Payment. Hosting dan <a href="https://www.niagahoster.co.id/domain-murah" class="internal-link">domain</a> langsung aktif!</p>
@@ -198,11 +195,15 @@
             <hr class="super-soft" />
           </div>
           <div class="col-8">
+            <small>
             Copyright ©2020 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja and <a href="https://www.niagahoster.co.id/datacenter-hosting" class="internal-link">DC DCI-Indonesia</a><br />
             Cloud <a href="https://www.niagahoster.co.id/cloud-vps-hosting" class="internal-link">VPS Murah</a> powered by Webuzo Softaculous, Intel SSD and cloud computing technology
+            </small>
           </div>
           <div class="col text-center">
-            <span class="syarat-dan-ketentuan nunito-light"> <a href="https://www.niagahoster.co.id/syarat-dan-ketentuan">Syarat dan Ketentuan</a> | <a href="https://www.niagahoster.co.id/kebijakan-privasi">Kebijakan Privasi</a> </span>
+            <small>
+              <span class="syarat-dan-ketentuan nunito-light"> <a href="https://www.niagahoster.co.id/syarat-dan-ketentuan">Syarat dan Ketentuan</a> | <a href="https://www.niagahoster.co.id/kebijakan-privasi">Kebijakan Privasi</a> </span>
+            </small>
           </div>
         </div>
       </div>

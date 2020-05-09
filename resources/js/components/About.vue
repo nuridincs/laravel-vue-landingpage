@@ -7,7 +7,9 @@
           <div>Cepat, handal, penuh dengan modul PHP yang Anda Butuhkan</div>
           <div v-for="(data, index) in 5" :key="index">
             <div>
-              <span>c</span>
+              <span>
+                <i class="fa fa-check-circle text-green"></i>
+              </span>
               <span>Solusi PHP Untuk perfoma query yang lebih cepat</span>
             </div>
           </div>

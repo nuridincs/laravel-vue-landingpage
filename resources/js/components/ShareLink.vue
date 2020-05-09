@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col">Bagikan jika Anda menyukai halaman ini.</div>
         <div class="col">
-          <span>facebook</span>
-          <span>twitter</span>
-          <span>google</span>
+          <span><i class="fa fa-facebook-square fa-2x"></i></span>
+          <span><i class="fa fa-twitter-square fa-2x"></i></span>
+          <span><i class="fa fa-google-plus-square fa-2x"></i></span>
         </div>
       </div>
     </div>

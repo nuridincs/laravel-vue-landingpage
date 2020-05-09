@@ -5,7 +5,9 @@
       <div class="col">
         <ul class="spec">
           <li v-for="(data, index) in 3" :key="index">
-            <span></span>
+            <span>
+              <i class="fa fa-check-circle text-green"></i>
+            </span>
             <span>Max Execution time 300s</span>
           </li>
         </ul>
@@ -13,7 +15,9 @@
       <div class="col">
         <ul class="spec">
           <li v-for="(data, index) in 3" :key="index">
-            <span></span>
+            <span>
+              <i class="fa fa-check-circle text-green"></i>
+            </span>
             <span>Max Execution time 300s</span>
           </li>
         </ul>
