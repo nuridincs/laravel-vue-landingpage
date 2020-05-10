@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="py-3">
+    <div class="p-4">
       <div class="row">
         <div class="col-sm">
           <small class="fn-m-light"> Gratis Ebook 9 cara cerda menggunakan Domain [x] </small>
