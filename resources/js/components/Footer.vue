@@ -54,7 +54,7 @@
           <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 hidden640 footer-menu">
             <div class="mar_top3 hidden-xs hidden-xxs"></div>
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
-            <p class="font-r-bold title">SERVICE HOSTING</p>
+            <p class="font-r-bold title mt-m-2">SERVICE HOSTING</p>
             <div class="mar_top1"></div>
             <ul class="list no-arrow nunito-regular text">
               <li><a href="https://www.niagahoster.co.id/hosting-murah">Hosting Murah</a></li>
@@ -69,7 +69,7 @@
           <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 hidden640 footer-tutorial">
             <div class="mar_top3 hidden-xs hidden-xxs"></div>
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
-            <p class="font-r-bold title">TUTORIAL</p>
+            <p class="font-r-bold title mt-m-2">TUTORIAL</p>
             <div class="mar_top1"></div>
             <ul class="list no-arrow nunito-regular text">
               <li><a href="https://www.niagahoster.co.id/ebook">Ebook Gratis</a></li>
@@ -83,7 +83,7 @@
           <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 hidden640 info-callme">
             <div class="mar_top3 hidden-xs hidden-xxs"></div>
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
-            <p class="font-r-bold title">TENTANG KAMI</p>
+            <p class="font-r-bold title mt-m-2">TENTANG KAMI</p>
             <div class="mar_top1"></div>
             <ul class="list no-arrow nunito-regular text">
               <li><a href="https://www.niagahoster.co.id/promosi">Penawaran &amp; Promo Spesial</a></li>
@@ -95,7 +95,7 @@
           <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 hidden640 footer-menu">
             <div class="mar_top3 hidden-xs hidden-xxs"></div>
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
-            <p class="font-r-bold title">KENAPA PILIH NIAGAHOSTER?</p>
+            <p class="font-r-bold title mt-m-2">KENAPA PILIH NIAGAHOSTER?</p>
             <div class="mar_top1"></div>
             <ul class="list no-arrow nunito-regular text">
               <li><a href="https://www.niagahoster.co.id/hosting-terbaik">Hosting Terbaik</a></li>
@@ -109,46 +109,40 @@
           <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 hidden640 footer-menu">
             <div class="mar_top3 hidden-xs hidden-xxs"></div>
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
-            <p class="font-r-bold title">NEWSLETTER</p>
+            <p class="font-r-bold title mt-m-2">NEWSLETTER</p>
             <div class="mar_top1"></div>
-            <form method="get" action="" id="newsletter_submit" class="pull-left">
+            <form method="get" action="" id="newsletter_submit">
               <div class="input-group">
-                <input class="form-control email_newsletter" name="email" id="samplees" value="" placeholder="Email" type="text" />
-                <span class="input-group-btn">
-                  <button class="btn btn-info btn2" type="submit">Berlangganan</button>
+                <input class="form-control email_newsletter rounded" name="email" id="samplees" value="" placeholder="Email" type="text" />
+                <span class="input-group-btn input-group-text custom-input-group">
+                  <button class="btn btn-info btn2 rounded bg-blue-light p-0" type="submit">Berlangganan</button>
                 </span>
               </div>
-              <!-- <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-prepend w-100">
-                    <input type="text" class="form-control rounded" placeholder="Email">
-                    <span class="input-group-text custom-input-group">
-                      <button class="btn btn-info btn2 p-0 bg-blue-light" type="submit">Berlangganan</button>
-                    </span>
-                  </div>
-                </div>
-              </div> -->
             </form>
             <p class="mar_top1 nunito-light note">Dapatkan promo dan konten menarik dari penyedia <a href="https://www.niagahoster.co.id/" class="internal-link">web hosting</a> Anda.</p>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 hidden640 footer-tutorial">
-            <div class="mar_top3 hidden-xs hidden-xxs"></div>
-            <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
-            <div class="row social-icon">
-              <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://www.facebook.com/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-facebook zmdi-hc-lg zmdi-hc-border-circle-fb"><i class="fa fa-facebook"></i></i></a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://twitter.com/niagahoster" target="_blank" rel="nofollow"><i class="zmdi zmdi-twitter zmdi-hc-lg zmdi-hc-border-circle-tw"><i class="fa fa-twitter"></i></i></a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-xxs-3 text-center">
-                <a href="https://www.instagram.com/niagahoster.id" target="_blank" rel="nofollow"><i class="zmdi zmdi-instagram zmdi-hc-lg zmdi-hc-border-circle-tw"><i class="fa fa-google"></i></i></a>
-              </div>
+          <div class="col-sm">
+            <div class="m-auto py-5">
+              <a href="https://www.facebook.com/niagahoster" target="_blank" rel="nofollow">
+                <i class="zmdi mr-4 zmdi-facebook zmdi-hc-lg zmdi-hc-border-circle-fb">
+                  <i class="fa fa-facebook"></i>
+                </i>
+              </a>
+              <a href="https://twitter.com/niagahoster" target="_blank" rel="nofollow">
+                <i class="zmdi mr-4 zmdi-twitter zmdi-hc-lg zmdi-hc-border-circle-tw">
+                  <i class="fa fa-twitter"></i>
+                </i>
+              </a>
+              <a href="https://twitter.com/niagahoster" target="_blank" rel="nofollow">
+                <i class="zmdi mr-4 zmdi-twitter zmdi-hc-lg zmdi-hc-border-circle-tw">
+                  <i class="fa fa-twitter"></i>
+                </i>
+              </a>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12 hidden640 hidden480 hidden-xss">
+        <div v-if="!isMobile" class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12 footer-pembayaran">
             <div class="mar_top3 hidden-xs hidden-xxs"></div>
             <div class="mar_top5 hidden-lg hidden-md hidden-sm show-xs show-xxs"></div>
             <p class="font-r-bold title">PEMBAYARAN</p>
@@ -196,6 +190,55 @@
             <p class="mar_top2 nunito-light note">Aktivasi instan dengan e-Payment. Hosting dan <a href="https://www.niagahoster.co.id/domain-murah" class="internal-link">domain</a> langsung aktif!</p>
           </div>
         </div>
+        <div v-else class="row">
+          <div class="col-sm">
+            <p class="font-r-bold title">PEMBAYARAN</p>
+            <ul class="logo-bank">
+              <li>
+                <img src="assets/svg/logo-bank/bni.svg" data-src="assets/svg/logo-bank/bni.svg" alt="bank bni" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/bca.svg" data-src="assets/svg/logo-bank/bca.svg" alt="bank bca" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/bri.svg" data-src="assets/svg/logo-bank/bri.svg" alt="bank bri" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/mandiriclickpay.svg" data-src="assets/svg/logo-bank/mandiriclickpay.svg" alt="mandiri clickpay" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/permatabank.svg" data-src="assets/svg/logo-bank/permatabank.svg" alt="bank permata" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/atmbersama.svg" data-src="assets/svg/logo-bank/atmbersama.svg" alt="atm bersama" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/prima.svg" data-src="assets/svg/logo-bank/prima.svg" alt="prima" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/alto.svg" data-src="assets/svg/logo-bank/alto.svg" alt="alto" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/visa.svg" data-src="assets/svg/logo-bank/visa.svg" alt="visa" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/mastercard.svg" data-src="assets/svg/logo-bank/mastercard.svg" alt="master card" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/indomaret.svg" data-src="assets/svg/logo-bank/indomaret.svg" alt="indomaret" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/paypal.svg" data-src="assets/svg/logo-bank/paypal.svg" alt="paypal" class="bank-logo" />
+              </li>
+              <li>
+                <img src="assets/svg/logo-bank/gopay.svg" data-src="assets/svg/logo-bank/gopay.svg" alt="paypal" class="bank-logo img-fluid" />
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <p class="mar_top2 nunito-light note">Aktivasi instan dengan e-Payment. Hosting dan <a href="https://www.niagahoster.co.id/domain-murah" class="internal-link">domain</a> langsung aktif!</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="copyright_info">
@@ -204,13 +247,13 @@
           <div class="col-ms-12 col-sm-12">
             <hr class="super-soft" />
           </div>
-          <div class="col-8">
+          <div class="col-sm-8">
             <small>
             Copyright ©2020 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja and <a href="https://www.niagahoster.co.id/datacenter-hosting" class="internal-link">DC DCI-Indonesia</a><br />
             Cloud <a href="https://www.niagahoster.co.id/cloud-vps-hosting" class="internal-link">VPS Murah</a> powered by Webuzo Softaculous, Intel SSD and cloud computing technology
             </small>
           </div>
-          <div class="col text-center">
+          <div class="col-sm text-center">
             <small>
               <span class="syarat-dan-ketentuan nunito-light"> <a href="https://www.niagahoster.co.id/syarat-dan-ketentuan">Syarat dan Ketentuan</a> | <a href="https://www.niagahoster.co.id/kebijakan-privasi">Kebijakan Privasi</a> </span>
             </small>
@@ -222,6 +265,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  props: {
+    isMobile: {
+      type: Boolean,
+      default: false
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 .title {
   font-size: 14px!important;
@@ -230,6 +284,10 @@
 
 a {
   color: #cfcfcf;
+
+  &:hover {
+    color: #fff;
+  }
 }
 
 ul, li {
@@ -242,33 +300,8 @@ ul, li {
   background-color: #1fa2f3;
 }
 
-// .input-group {
-//   display: table;
-//   border-collapse: separate;
-// }
-
-// #newsletter_submit {
-//   border: none;
-//   border-radius: 30px 0 0 30px;
-// }
-
-// .input-group-btn {
-//   background-color: #fff;
-//   background-image: none;
-//   border-radius: 0 30px 30px 0;
-//   box-shadow: 0 1px 1px rgba(0,0,0,.075) inset;
-//   color: #2c3e50;
-//   padding-right: 5px;
-// }
-
 .footer {
   background-color: #333;
-}
-
-ul.logo-bank li {
-  width: 7%;
-  float: left;
-  margin-right: 5px;
 }
 
 .custom-input-group {
@@ -281,7 +314,7 @@ ul.logo-bank li {
 }
 
 .rounded {
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
 
 .footer .font-r-bold.title{font-size:14px!important;color:#8d8d8d!important}
@@ -295,7 +328,6 @@ ul.logo-bank li {
 .zmdi-hc-border-circle-fb{border:.1em solid #d7d7d7!important;border-radius:50%;padding:.6em .8em!important}
 .zmdi-hc-border-circle-tw{border:.1em solid #d7d7d7!important;border-radius:50%;padding:.6em!important}
 .fa-border{border:.1em solid #d7d7d7!important;border-radius:50%;padding:.6em .4em!important}
-ul.logo-bank li{width:7%;float:left;margin-right:5px}
 @media screen and (min-width:360px) and (max-width:480px){.btn2{padding:0 10px!important;margin:0!important}
     .footer .footer-menu,.footer .footer-newsletter,.footer .footer-pembayaran,.footer .footer-tutorial{margin-left:0}
 }

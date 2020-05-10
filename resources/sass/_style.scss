@@ -131,6 +131,7 @@ body {
 
   @include media ("<medium") {
     margin: 0 -1rem;
+    text-align: center;
   }
 }
 
@@ -178,5 +179,21 @@ body {
 
   @include media ("<medium") {
     width: 5% !important;
+  }
+}
+
+.logo-bank li {
+  width: 7%;
+  float: left;
+  margin-right: 5px;
+
+  @include media ("<medium") {
+    width: 20% !important;
+  }
+}
+
+.mt-m-2 {
+  @include media ("<medium") {
+    margin-top: 2rem;
   }
 }

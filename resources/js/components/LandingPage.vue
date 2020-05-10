@@ -13,7 +13,7 @@
     <SupportLinux />
     <ShareLink />
     <CallUs />
-    <Footer />
+    <Footer :is-mobile="isMobile" />
   </div>
 </template>
 
