@@ -1,36 +1,39 @@
 <template>
-  <div class="py-5">
-    <div class="text-center">
-      <h3 class="fn-m-bold"><b>Paket Hosting Singapura yang Tepat</b></h3>
-      <div class="fn-hairline"><h3>Diskon 40% Domain dan SSL Gratis untuk Anda</h3></div>
-    </div>
+  <div>
     <div class="py-5">
-      <div v-for="(data, index) in listPrice" :key="index">
-        <div class="columns">
-          <ul class="price">
-            <li class="header fn-m-bold">{{ data.type }}</li>
-            <li>
-              <small class="fn-m-light"><del>Rp. {{ data.gimmick_price }}</del></small>
-              <div>
-                <span class="v-top fn-m-light">Rp.</span>
-                <span class="h1 text-bold fn-m-bold">{{ data.price }}</span>
-                <span class="v-top fn-m-light">.{{ data.price_last }}/ bln</span>
-              </div>
-            </li>
-            <li class="fn-rbt-light"><b>{{ data.total_user }}</b> Pengguna Terdaftar</li>
-            <li>
-              <span class="fn-rbt-light" v-html="data.spesification.detail" />
-              <div class="p-3 price-btn">
-                <a href="#" class="btn btn-outline-dark btn-block br-2">
-                  <span v-if="data.diskon > 0">Diskon {{ data.diskon }} %</span>
-                  <span v-else class="fn-m-regular">Pilih Sekarang</span>
-                </a>
-              </div>
-            </li>
-          </ul>
+      <div class="text-center">
+        <h3 class="fn-m-bold"><b>Paket Hosting Singapura yang Tepat</b></h3>
+        <div class="fn-hairline"><h3>Diskon 40% Domain dan SSL Gratis untuk Anda</h3></div>
+      </div>
+      <div class="py-5">
+        <div v-for="(data, index) in listPrice" :key="index">
+          <div class="columns">
+            <ul class="price">
+              <li class="header fn-m-bold">{{ data.type }}</li>
+              <li>
+                <small class="fn-m-light"><del>Rp. {{ data.gimmick_price }}</del></small>
+                <div>
+                  <span class="v-top fn-m-light">Rp.</span>
+                  <span class="h1 text-bold fn-m-bold">{{ data.price }}</span>
+                  <span class="v-top fn-m-light">.{{ data.price_last }}/ bln</span>
+                </div>
+              </li>
+              <li class="fn-rbt-light"><b>{{ data.total_user }}</b> Pengguna Terdaftar</li>
+              <li>
+                <span class="fn-rbt-light" v-html="data.spesification.detail" />
+                <div class="p-3 price-btn">
+                  <a href="#" class="btn btn-outline-dark btn-block br-2">
+                    <span v-if="data.diskon > 0">Diskon {{ data.diskon }} %</span>
+                    <span v-else class="fn-m-regular">Pilih Sekarang</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+    <h1>&nbsp;</h1>
   </div>
 </template>
 

@@ -118,6 +118,16 @@
                   <button class="btn btn-info btn2" type="submit">Berlangganan</button>
                 </span>
               </div>
+              <!-- <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend w-100">
+                    <input type="text" class="form-control rounded" placeholder="Email">
+                    <span class="input-group-text custom-input-group">
+                      <button class="btn btn-info btn2 p-0 bg-blue-light" type="submit">Berlangganan</button>
+                    </span>
+                  </div>
+                </div>
+              </div> -->
             </form>
             <p class="mar_top1 nunito-light note">Dapatkan promo dan konten menarik dari penyedia <a href="https://www.niagahoster.co.id/" class="internal-link">web hosting</a> Anda.</p>
           </div>
@@ -212,7 +222,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .default {
   color: #cfcfcf;
   padding: 3rem;
@@ -232,6 +242,10 @@ ul, li {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+ .bg-blue-light{
+  background-color: #1fa2f3;
 }
 
 // .input-group {
@@ -261,6 +275,19 @@ ul.logo-bank li {
   width: 7%;
   float: left;
   margin-right: 5px;
+}
+
+.custom-input-group {
+  background: none;
+  border: none;
+  position: absolute;
+  height: 39px;
+  display: flex;
+  right: 0;
+}
+
+.rounded {
+  border-radius: 20px;
 }
 
 .footer .font-r-bold.title{font-size:14px!important;color:#8d8d8d!important}

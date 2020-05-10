@@ -2,17 +2,24 @@
   <div class="p-2">
     <div class="row text-center">
       <div class="col">
-        <img src="/assets/svg/icon PHP Hosting_zendguard.svg" class="img-fluid" alt="icon">
-        <div>PHP Zend Guard Loader</div>
+        <img src="/assets/svg/icon-PHP-Hosting-zendguard.png" class="img-fluid w-50 py-5" alt="icon">
       </div>
       <div class="col">
-        <img src="/assets/svg/icon PHP Hosting_ioncube.svg" class="img-fluid" alt="icon">
-        <!-- <img src="/assets/svg/icon-PHP-Hosting-composer.svg" class="img-fluid" alt="icon"> -->
-        <div>PHP Composer</div>
+        <img src="/assets/svg/icon-PHP-Hosting-composer.png" class="img-fluid w-25 py-2" alt="icon">
       </div>
       <div class="col">
-        <img src="/assets/svg/icon PHP Hosting_ioncube.svg" class="img-fluid" alt="icon">
-        <div>PHP ionCube Loader</div>
+        <img src="/assets/svg/icon-PHP-Hosting-ioncube.png" class="img-fluid w-50 py-5" alt="icon">
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col">
+        <div class="fn-hairline">PHP Zend Guard Loader</div>
+      </div>
+      <div class="col">
+        <div class="fn-hairline">PHP Composer</div>
+      </div>
+      <div class="col">
+        <div class="fn-hairline">PHP ionCube Loader</div>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="text-center fn-m-light">Powerful dengan Limit PHP yang Lebih Besar</h3>
-    <div class="row fn-hairline">
+    <div class="row fn-hairline py-5">
       <div class="col">
         <ul class="spec">
           <li v-for="({value}, index) in item" :key="index" :class="[index === 1 ? 'bg-grey' : '']">
