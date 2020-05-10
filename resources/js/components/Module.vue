@@ -2,7 +2,7 @@
   <div class="py-4">
     <h3 class="text-center fn-m-light">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda</h3>
     <div class="py-3">
-      <ul class="fn-rbt-light">
+      <ul class="fn-rbt-light text-center">
         <li v-for="(data, index) in 60" :key="index">IcePHP</li>
       </ul>
       <div class="text-center">

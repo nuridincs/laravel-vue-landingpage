@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/* stylelint-disable */
+
+/* stylelint-enable */
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -14020,6 +14024,12 @@ body {
   border-bottom: 1px solid #f1f1f1;
 }
 
+@media (max-width: 767px) {
+  .bottom-line {
+    margin: 0;
+  }
+}
+
 .br-2 {
   border-radius: 20px;
   border: 2px solid #000;
@@ -14047,5 +14057,71 @@ body {
 
 .v-top {
   vertical-align: top;
+}
+
+.default {
+  color: #cfcfcf;
+  padding: 3rem;
+  margin: 0 -6rem;
+}
+
+@media (max-width: 767px) {
+  .default {
+    margin: 0 -1rem;
+  }
+}
+
+.wrapper-bg-call {
+  background-color: #1fa2f3;
+  color: #fff;
+  margin: 0 -6rem;
+}
+
+@media (max-width: 767px) {
+  .wrapper-bg-call {
+    margin: 0 -1rem;
+  }
+}
+
+.wrapper-bg-share-link {
+  background-color: #f7f7f7;
+  color: #000;
+  margin: 0 -6rem;
+}
+
+@media (max-width: 767px) {
+  .wrapper-bg-share-link {
+    margin: 0 -1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .w-25 {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .w-50 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-share {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.member {
+  width: 15%;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .member {
+    width: 5% !important;
+  }
 }
 

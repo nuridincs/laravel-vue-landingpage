@@ -223,12 +223,6 @@
 </template>
 
 <style lang="scss">
-.default {
-  color: #cfcfcf;
-  padding: 3rem;
-  margin: 0 -6rem;
-}
-
 .title {
   font-size: 14px!important;
   color: #8d8d8d!important;

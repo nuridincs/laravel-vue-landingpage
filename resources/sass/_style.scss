@@ -89,6 +89,10 @@ body {
 .bottom-line {
   margin: 0 -6rem;
   border-bottom: 1px solid #f1f1f1;
+
+  @include media ("<medium") {
+    margin: 0;
+  }
 }
 
 .br-2 {
@@ -118,4 +122,61 @@ body {
 
 .v-top {
   vertical-align: top
+}
+
+.default {
+  color: #cfcfcf;
+  padding: 3rem;
+  margin: 0 -6rem;
+
+  @include media ("<medium") {
+    margin: 0 -1rem;
+  }
+}
+
+.wrapper-bg-call {
+  background-color: #1fa2f3;
+  color: #fff;
+  margin: 0 -6rem;
+
+  @include media ("<medium") {
+    margin: 0 -1rem;
+  }
+}
+
+.wrapper-bg-share-link {
+  background-color: #f7f7f7;
+  color: #000;
+  margin: 0 -6rem;
+
+  @include media ("<medium") {
+    margin: 0 -1rem;
+  }
+}
+.w-25 {
+  @include media ("<medium") {
+    width: 50% !important;
+  }
+}
+
+.w-50 {
+  @include media ("<medium") {
+    width: 100% !important;
+  }
+}
+
+.text-share {
+  @include media ("<medium") {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.member {
+  width: 15%;
+  border-radius: 20px;
+
+  @include media ("<medium") {
+    width: 5% !important;
+  }
 }

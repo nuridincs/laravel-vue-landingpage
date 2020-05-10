@@ -1,5 +1,7 @@
 @import 'variables';
 
+@import 'utilities/include-media';
+
 @import 'vendor/bootstrap';
-  @import 'vendor/font-awesome';
+@import 'vendor/font-awesome';
 @import 'style';

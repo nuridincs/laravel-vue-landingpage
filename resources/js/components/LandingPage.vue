@@ -1,7 +1,8 @@
 <template>
   <div>
-    <Header />
-    <NavBar />
+    <Header v-if="!isMobile" />
+    <NavBar v-if="!isMobile" />
+    <NavBarMobile v-if="isMobile" />
     <About />
     <Support />
     <Price />
@@ -19,6 +20,7 @@
 <script>
 import Header from './Header';
 import NavBar from './NavBar';
+import NavBarMobile from './NavBarMobile';
 import About from './About';
 import Support from './Support';
 import Price from './Price';
@@ -35,6 +37,7 @@ export default {
   components: {
     Header,
     NavBar,
+    NavBarMobile,
     About,
     Support,
     Price,
@@ -46,6 +49,16 @@ export default {
     ShareLink,
     CallUs,
     Footer
-  }
+  },
+
+  computed: {
+    isMobile() {
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        return true
+      } else {
+        return false
+      }
+    }
+  },
 }
 </script>

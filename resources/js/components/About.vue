@@ -2,7 +2,7 @@
   <section>
     <div class="p-3">
       <div class="row">
-        <div class="col">
+        <div class="col-sm">
           <h2 class="fn-m-bold"><b>PHP HOSTING</b></h2>
           <div class="mb-3 sub-title">Cepat, handal, penuh dengan modul PHP yang Anda Butuhkan</div>
           <div v-for="({value}, index) in item" :key="index" class="py-2">
@@ -14,7 +14,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-sm">
           <img src="assets/svg/illustration banner PHP hosting-01.svg" alt="">
         </div>
       </div>

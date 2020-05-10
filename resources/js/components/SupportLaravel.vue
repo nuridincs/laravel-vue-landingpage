@@ -2,7 +2,7 @@
   <div class="p-3">
     <h3 class="text-center fn-m-light">Mendukung Penuh Framework Laravel</h3>
     <div class="row p-3">
-      <div class="col-7">
+      <div class="col-sm-7">
         <div class="h4 fn-rbt-thin">Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</div>
         <div v-for="({value}, index) in item" :key="index" class="fn-rbt-light">
           <div class="py-2">
@@ -19,7 +19,7 @@
           <a href="#" class="btn btn-primary btn-hosting w-50 fn-m-regular"><b>Pilih Hosting Anda</b></a>
         </div>
       </div>
-      <div class="col">
+      <div class="col-sm">
         <img src="assets/svg/illustration banner support laravel hosting.svg" alt="">
       </div>
     </div>

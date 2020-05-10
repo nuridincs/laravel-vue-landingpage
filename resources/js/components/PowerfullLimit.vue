@@ -2,32 +2,32 @@
   <div>
     <h3 class="text-center fn-m-light">Powerful dengan Limit PHP yang Lebih Besar</h3>
     <div class="row fn-hairline py-5">
-      <div class="col">
+      <div class="col-sm">
         <ul class="spec">
           <li v-for="({value}, index) in item" :key="index" :class="[index === 1 ? 'bg-grey' : '']">
             <div class="row">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <span>
                   <i class="fa fa-check-circle text-green fa-lg"></i>
                 </span>
               </div>
-              <div class="col">
+              <div class="col-sm">
                 <span>{{ value }}</span>
               </div>
             </div>
           </li>
         </ul>
       </div>
-      <div class="col">
+      <div class="col-sm">
         <ul class="spec">
           <li v-for="({value}, index) in item2" :key="index" :class="[index === 1 ? 'bg-grey' : '']">
             <div class="row">
-              <div class="col-2">
+              <div class="col-sm-2">
                 <span>
                   <i class="fa fa-check-circle text-green fa-lg"></i>
                 </span>
               </div>
-              <div class="col">
+              <div class="col-sm">
                 <span>{{ value }}</span>
               </div>
             </div>
